@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "metro": [
+    {
+      "id": "e3894305-0751-4e04-913a-15cb2cfd85e2",
+      "nombre": "Quitumbe",
+      "sector": "Quitumbe",
+      "salida": "Quitumbe",
+      "llegada": "Carolina",
+      "maquinista": "Carlos",
+      "detalles": "ninguno"
+    }
+  ]
+}
