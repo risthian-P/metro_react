@@ -9,6 +9,7 @@ import { useState } from 'react'
 function App() {
   const [darkMode, setdarkMode] = useState(false)
   const [estado, setEstado] = useState(false)
+  const [idMetro, setIdmetro] = useState(0)
   return (
     <div className={darkMode ? "dark" :""}>
 
@@ -30,7 +31,7 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10'>
-            <Formulario setEstado={setEstado}/>
+          <Formulario setEstado={setEstado} idMetro={idMetro} setIdmetro={setIdmetro} />
           </div>
         </div>
         
@@ -43,7 +44,7 @@ function App() {
             <hr className="w-80 border border-gray-400" />
           </div>
           <div className='mt-10 h-[675px] overflow-y-auto'>
-            <Listar estado={estado}/>
+          <Listar setIdmetro={setIdmetro} estado={estado}/>
           </div>
         </div>
       </main>
